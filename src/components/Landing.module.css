@@ -1,3 +1,9 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .coinContainer {
   margin: 50px auto;
   border: 1px solid silver;

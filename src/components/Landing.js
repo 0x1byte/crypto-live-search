@@ -31,7 +31,7 @@ const Landing = () => {
   const searchedCoins = coins.filter(coin => coin.name.toLowerCase().includes(search.toLowerCase()))
 
   return (
-    <div>
+    <div className={styles.mainContainer} >
       <input  className={styles.input} type="text" name="search" placeholder="Search" value={search} onChange={searchHandler} />
       {
                 coins.length ?
