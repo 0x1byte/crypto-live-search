@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 60%;
 }
 
 .coinContainer {
@@ -11,11 +10,12 @@
   border: 1px solid silver;
   border-radius: 10px;
   background-color: #f6f6f6;
+  width: 60%;
   
 }
 
 .input {
-  width: 25rem;
+  width: 30%;
   margin-top: 3rem;
   border: 1px solid silver;
   border-radius: 5px;
@@ -30,4 +30,15 @@
   border-color: white;
   background: white;
   box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+
+
+@media (max-width: 440px) {
+  .coinContainer {
+    width: 98%;
+    
+  }
+  .input {
+    width: 50%;
+  }
 }
