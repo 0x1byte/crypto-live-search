@@ -6,16 +6,16 @@
 }
 
 .coinContainer {
-  margin: 50px auto;
+  margin: 2.5rem auto;
   border: 1px solid silver;
   border-radius: 10px;
-  width: fit-content;
   background-color: #f6f6f6;
+  /* width: 60%; */
 }
 
 .input {
-  width: 300px;
-  margin-top: 50px;
+  width: 25rem;
+  margin-top: 3rem;
   border: 1px solid silver;
   border-radius: 5px;
   height: 20px;

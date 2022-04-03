@@ -1,8 +1,8 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 15px 40px;
+  justify-content: space-between;
+  padding: 1rem 4rem;
   font-size: 12px;
   color: #212529;
   border-bottom: 1px solid silver;
@@ -13,32 +13,28 @@
 }
 
 .image {
-  width: 30px;
+  width: 2.5rem;
 }
 
 .name {
-  width: 140px;
-  font-size: 14xp;
-  margin-left: 15px;
-  text-align: left;
+  width: 10rem;
+  font-size: 14px;
+  margin-left: 0.1rem;
   font-weight: bold;
   color: #333333;
 }
 
 .symbol {
-  text-align: left;
-  width: 100px;
+  width: 4rem;
 }
 
 .currentPrice {
-  text-align: left;
-  width: 100px;
+  width: 3.5rem;
 }
 
 .greenPriceChange,
 .redPriceChange {
-  width: 100px;
-  text-align: left;
+  width: 3.5rem;
   font-weight: bold;
 }
 

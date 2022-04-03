@@ -19,7 +19,6 @@ const Landing = () => {
     const fetchApi = async () => {
       const data = await getCoins()
       setCoins(data)
-      console.log(data);
     }
     fetchApi()
   }, [])
